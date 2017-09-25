@@ -1,0 +1,7 @@
+include ../logo/logo
+include ../nav/nav
+
+mixin header(data)
+    +b.HEADER.header()&attributes(attributes)
+        +logo()
+        +nav(nav.main)

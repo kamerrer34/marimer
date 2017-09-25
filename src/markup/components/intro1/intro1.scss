@@ -1,0 +1,25 @@
+.intro1 {
+    
+    &__title {
+        position: absolute;
+        top: rem(520);
+        left: rem(340);
+        margin: 0;
+        font-family: $font-2;
+        font-size: rem(375);
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: rem(-36);
+        color: #38a5e4;
+    }
+    
+    &__subtitle {
+        top: rem(910);
+        left: rem(340);
+        font-size: rem(95);
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: rem(-24);
+        color: #5e7080;
+    }
+}

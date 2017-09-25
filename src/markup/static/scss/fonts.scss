@@ -1,0 +1,6 @@
+@include font-face('Proxima Nova', '../fonts/ProximaNovaRegular', normal, $exts: woff eot ttf);
+@include font-face('Fira Sans Condensed', '../fonts/firasanscondensedbold-webfont', 700, $exts: woff eot ttf);
+@include font-face('Fira Sans Condensed', '../fonts/firasanscondensedlight-webfont', 300, $exts: woff eot ttf);
+
+$font-1: 'Proxima Nova', Helvetica, Arial, sans-serif;
+$font-2: 'Fira Sans Condensed', Helvetica, Arial, sans-serif;

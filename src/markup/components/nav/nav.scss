@@ -1,0 +1,29 @@
+.nav {
+    position: absolute;
+    top: rem(60);
+    right: rem(164);
+    
+    &__list {
+        font-size: 0;
+    }
+    
+    &__item {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: rem(40);
+        
+        &_sel {
+            padding: 0 rem(38);
+            border: rem(4) solid #37a5e4;
+            border-radius: rem(10);
+            line-height: rem(78);
+        }
+    }
+    
+    &__link {
+        text-transform: uppercase;
+        font-size: rem(24);
+        font-weight: 700;
+        color: #023b66;
+    }
+}

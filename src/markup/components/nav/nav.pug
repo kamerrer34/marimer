@@ -1,0 +1,6 @@
+mixin nav(data)
+    +b.nav()&attributes(attributes)
+        +e.UL.list
+            each item in data.items
+                +e.LI.item(class={'_sel': item.sel})
+                    +e.A.link(href=item.href) #{item.text}

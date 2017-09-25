@@ -1,0 +1,26 @@
+// Common styles of the project
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-family: $font-1;
+    font-size: 16 / 2552 * 100 + vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.slide {
+    position: relative;
+    height: rem(1600);
+}
+

@@ -1,0 +1,11 @@
+extends ../layouts/default
+
+include ../components/intro1/intro1
+
+block vars
+    -pageSettings.title = 'Главная';
+
+block content
+    +intro1()
+
+
