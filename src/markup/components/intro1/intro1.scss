@@ -1,9 +1,12 @@
 .intro1 {
     
-    &__title {
+    &__info {
         position: absolute;
         top: rem(515);
         left: rem(340);
+    }
+    
+    &__title {
         margin: 0;
         font-family: $font-2;
         font-size: rem(375);
@@ -14,9 +17,8 @@
     }
     
     &__subtitle {
-        position: absolute;
-        top: rem(885);
-        left: rem(355);
+        margin-top: rem(-1);
+        margin-left: rem(14);
         font-family: $font-2;
         font-size: rem(95);
         font-weight: 300;
@@ -26,12 +28,11 @@
     }
     
     &__text {
-        position: absolute;
-        top: rem(1022);
-        left: rem(365);
+        margin-top: rem(21);
+        margin-left: rem(25);
         width: rem(400);
         font-size: rem(34);
-        line-height: (50/34);
+        line-height: (48/34);
         letter-spacing: rem(-0.5);
         color: #5e7080;
     }

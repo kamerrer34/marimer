@@ -1,0 +1,43 @@
+.intro2 {
+    
+    &__info {
+        position: absolute;
+        
+        &_1 {
+            top: rem(530);
+            left: rem(200);
+        }
+        
+        &_2 {
+            top: rem(620);
+            right: rem(150);
+            
+            text-align: right;
+        }
+    }
+    
+    &__title {
+        display: inline-block;
+        width: rem(600);
+        margin: 0;
+        font-family: $font-2;
+        font-size: rem(90);
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: rem(-2);
+        color: #38a5e4;
+    }
+    
+    &__text {
+        width: rem(700);
+        margin-top: rem(53);
+        font-size: rem(34);
+        line-height: (48/34);
+        letter-spacing: rem(-0.7);
+        color: #5e7080;
+        
+        &_2 {
+            width: rem(650);
+        }
+    }
+}

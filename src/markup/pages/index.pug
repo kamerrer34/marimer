@@ -1,11 +1,12 @@
 extends ../layouts/default
 
 include ../components/intro1/intro1
+include ../components/intro2/intro2
 
 block vars
     -pageSettings.title = 'Главная';
 
 block content
     +intro1()
-
+    +intro2()
 
