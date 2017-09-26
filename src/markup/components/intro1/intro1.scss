@@ -2,24 +2,37 @@
     
     &__title {
         position: absolute;
-        top: rem(520);
+        top: rem(515);
         left: rem(340);
         margin: 0;
         font-family: $font-2;
         font-size: rem(375);
         font-weight: 700;
         line-height: 1;
-        letter-spacing: rem(-36);
+        letter-spacing: rem(-9);
         color: #38a5e4;
     }
     
     &__subtitle {
-        top: rem(910);
-        left: rem(340);
+        position: absolute;
+        top: rem(885);
+        left: rem(355);
+        font-family: $font-2;
         font-size: rem(95);
         font-weight: 300;
         text-transform: uppercase;
-        letter-spacing: rem(-24);
+        letter-spacing: rem(-2);
+        color: #5e7080;
+    }
+    
+    &__text {
+        position: absolute;
+        top: rem(1022);
+        left: rem(365);
+        width: rem(400);
+        font-size: rem(34);
+        line-height: (50/34);
+        letter-spacing: rem(-0.5);
         color: #5e7080;
     }
 }
